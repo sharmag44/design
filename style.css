@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background: url('https://images.unsplash.com/photo-1668881233694-1825a663b2a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .8;
+}
+nav,nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    position: absolute;
+    right:5rem;
+}
+li{
+
+    padding: 3rem;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    font-size:2rem;
+    font-weight:bolder;
+    text-decoration: none;
+    list-style: none;
+}
+nav ul li:hover{
+border-bottom: 6px solid rgb(106, 193, 170);
+padding: unset;
+}
+
+nav>div>h3{
+
+ padding: 3rem;
+ font-family:'Courier New', Courier, monospace;
+ font-size: 2.3rem;
+    
+}
+nav>div>img{
+    width: 200px;
+    height: 150px;
+    border-radius: 68%;
+    padding: .5rem;
+}
+.main__logo{
+display: flex;
+justify-content:space-evenly
+}
